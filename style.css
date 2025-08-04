@@ -63,6 +63,10 @@
 
 }
 
+.conteudo__imagem{
+    max-width: 70%;
+    height: auto;
+}
 
 .rodape{
     display: flex;                      /*Aciona o container*/
