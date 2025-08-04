@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford Enter</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <header>
-        <img src="./img/logo-ford-256.png" alt="Logo Ford cabeçalho">
+<body class="corpo">
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="./img/logo-ford-256.png" alt="Logo Ford cabeçalho">
         <nav>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./lancamento.html">Lançamento</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+            <ul class="cabecalho__navegacaoLinks">
+                <li><a class="cabecalho__navegacaoLinks__links" href="./index.html">Home</a></li>
+                <li><a class="cabecalho__navegacaoLinks__links" href="./lancamento.html">Lançamento</a></li>
+                <li><a class="cabecalho__navegacaoLinks__links" href="./contato.html">Contato</a></li>
+            </ul>
         </nav>
+        <div></div>
 
     </header>
    
-    <main>
+    <main class="conteudo">
         <img src="./img/imagem_1.jpg" alt="Ranger">
         <p>Segue lançamento da Ranger 2025. <a href="./lancamento.html">Clique Aqui!</a></p>
 
@@ -27,13 +30,21 @@
         
 
 
-    <footer>
-        <a href="#"><img src="./img/facebook-50.png" alt="Logo Facebook"></a>
-        <a href="#"><img src="./img/instagram-logo-50.png" alt="Logo Instagram"></a>
-        <a href="#"><img src="./img/youtube-squared-50.png" alt="Logo YouTube"></a>
-        <p>&copy; 2025 Ford Motor Company todos os direitos reservados</p>
-        <img src="./img/ford-96.png" alt="Logo Ford rodapé">
-
+    <footer class="rodape">
+        <div class="rodape__redesSociais">
+            <p>Redes Sociais</p>
+            <a  href="#"><img class="rodape__redesSociais__icones" src="./img/facebook-50.png" alt="Logo Facebook"></a>
+            <a  href="#"><img class="rodape__redesSociais__icones" src="./img/instagram-logo-50.png" alt="Logo Instagram"></a>
+            <a  href="#"><img class="rodape__redesSociais__icones" src="./img/youtube-squared-50.png" alt="Logo YouTube"></a>
+        </div>
+        
+        <div>
+            <p class="rodape__copyright">&copy; 2025 Ford Motor Company todos os direitos reservados</p>
+        </div>     
+         
+        <div>
+            <img class="rodape__redesSociais__icones" src="./img/ford-96.png" alt="Logo Ford rodapé">
+        </div>    
 
     </footer>
 
