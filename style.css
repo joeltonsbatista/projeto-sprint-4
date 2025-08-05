@@ -99,13 +99,102 @@
 
 
 .conteudo__videoPromocional{
+    flex:1;
+    min-width: 0;
+}
+
+.conteudo__videoPromocional iframe{
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    border:none;
+}
+
+.conteudo__textoPromocional{
+
+        flex: 0 0 300px;
+        padding-right: 20px;
+}
+
+.conteudo__textoPromocional p{
+
+    font-size: 16px;
+    line-height: 1.5;
+    color:#000;
+    margin: 20px 100px;
+    text-align: left; 
+}
+
+.conteudo__tabelaCarros{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+
+
+}
+
+.conteudo__tabelaCarros__veiculoCard{
+
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.conteudo__tabelaCarros__veiculoCard__imagem{
+
+    width:100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.veiculo_info{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.veiculo_info input[type="checkbox"]{
+
+    width: 30px;
+    height: 30px;
+    min-width: 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin:2px 10px 0 0;
+    position: relative;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.veiculo_info img{
+    width: 20px;
+    margin-top: auto;
+    vertical-align: bottom;
+}
+
+.texto-container{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 
 
 
 }
 
-.conteudo__textoPromocional{
+.veiculo_info h5{
+    margin:0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color:#1351d8;
 
-    
+}
+
+.veiculo_info p{
+    margin:0;
+    font-size: 11px;
+    text-align: left;
+    color:#000;
 
 }
