@@ -38,6 +38,7 @@
 
 }
 
+
 .corpo{
     font-family: Arial, sans-serif;     /*Seleciona a fonte utilizada no body*/
     margin: 0;
@@ -90,4 +91,20 @@
     margin: 0;
     font-size: 14px;                    /*Tamanho do texto do rodapé*/
     text-align: center;                 /*Centralização do texto*/
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+.conteudo__videoPromocional{
+
+
+
+}
+
+.conteudo__textoPromocional{
+
+    
+
 }
