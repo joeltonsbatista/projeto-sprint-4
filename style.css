@@ -99,83 +99,83 @@
 
 
 .conteudo__videoPromocional{
-    flex:1;
-    min-width: 0;
+    flex:1;                             /*Reserva um espaço específico para o video*/
+    min-width: 0;                       /*Evita o verflow do video dentro do container*/
 }
 
 .conteudo__videoPromocional iframe{
-    width: 90%;
-    height: 500px;
-    border-radius: 8px;
-    border:none;
+    width: 90%;                         /*Define a largura do video em percentual*/
+    height: 500px;                      /*Define a altura do video em pixel*/
+    border-radius: 8px;                 /*Adiciona borda ao video*/
+    border:none;                        /*Retira algum efeito de borda de demarcação8*/
 }
 
 .conteudo__textoPromocional{
 
-        flex: 0 0 300px;
-        padding-right: 20px;
+        flex: 0 0 300px;                /*Impede que o texto cresça ou encurte definindo um tamanho máximo de 300px*/
+        padding-right: 20px;            /*Afasta o texto da borda direita da tela*/
 }
 
 .conteudo__textoPromocional p{
 
-    font-size: 16px;
-    line-height: 1.5;
-    color:#000;
-    margin: 20px 100px;
-    text-align: left; 
+    font-size: 16px;                    /*Define o tamanho da fonte do testo*/
+    line-height: 1.5;                   /*Define o espaço entre as linhas do texto*/
+    color:#000;                       /*Define a cor do texto*/
+    margin: 20px 100px;                 /*Ajusta a posição do texto na página*/
+    text-align: left;                   /*Alinha o texto à esquerda*/
 }
 
 .conteudo__tabelaCarros{
-    display:flex;
-    justify-content: center;
-    gap:30px;
+    display:flex;                       /*Aciona o container para organização dos itens da tabela*/
+    justify-content: center;            /*Centraliza os itens dispostos na tabela*/
+    gap:30px;                           /*Define o espaçamento entre os itens*/ 
 
 
 }
 
 .conteudo__tabelaCarros__veiculoCard{
 
-    width: 250px;
+    width: 250px;                       /*Define o tamanho da largura das linhas da tabela criada*/
     padding: 15px;
-    margin: 10px;
+    margin: 10px;                       /*Organiza a disposição dos itens na linha*/
 }
 
 .conteudo__tabelaCarros__veiculoCard__imagem{
 
-    width:100%;
-    height: auto;
-    margin-bottom: 0px;
+    width:100%;                         /*Define a largura máxima em percentual para a imagem*/
+    height: auto;                       /*Define que a altura da imagem será automatica e proporcional à sua lagura*/
+    margin-bottom: 0px;                 /*Organiza a imagem dentro da linha e coluna*/
 }
 
 .veiculo_info{
-    display: flex;
-    align-items: flex-start;
+    display: flex;                      /*Aciona o container para controle do conteudo que trazem informações ao carro*/
+    align-items: flex-start;            /*Organiza o conteudo de forma a se manterem organizados à esquerda*/
     
 }
 
 .veiculo_info input[type="checkbox"]{
 
-    width: 30px;
-    height: 30px;
-    min-width: 20px;
-    border: 1px solid #000;
-    border-radius: 4px;
-    margin:2px 10px 0 0;
-    position: relative;
-    flex-shrink: 0;
-    cursor: pointer;
+    width: 30px;                        /*Define a largura do checkbox*/
+    height: 30px;                       /*Defina a altura do checkbox*/
+    min-width: 20px;                    /*Define largura mínima do checkbox no caso de variações na tela*/
+    border: 1px solid #000;           /*Define a borda do check box*/
+    border-radius: 4px;                 /*Adicina bordas arredondadas*/ 
+    margin:2px 10px 0 0;                /*Organiza a posição do checkbox*/
+    position: relative;                 /*Mantém a posição do checkbox fixa*/
+    flex-shrink: 0;                     /*Impede que o item encolha*/
+    cursor: pointer;                    /*Muda o ícone do cursor quando está sobre o checkbox*/
 }
 
 .veiculo_info img{
     width: 20px;
-    margin-top: auto;
+    margin-top: auto;                   /*Organiza o ícone info*/
     vertical-align: bottom;
 }
 
 .texto-container{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column;             /*Dispõe o texto informativo no formato de colunas*/
     flex-grow: 1;
 
 
@@ -184,7 +184,7 @@
 
 .veiculo_info h5{
     margin:0;
-    font-size: 12px;
+    font-size: 12px;                    /*Aplica estilização do texto h5*/
     text-align: left;
     font-weight: bold;
     color:#1351d8;
@@ -193,8 +193,95 @@
 
 .veiculo_info p{
     margin:0;
-    font-size: 11px;
+    font-size: 11px;                    /*Aplica estilização ao paragrafo nas informações do veículo*/
     text-align: left;
     color:#000;
 
 }
+
+.submit-botao{
+    background-color: #1351d8;        /*Cria um cor de fundo para o botão submit*/
+    color: #fff;                      /*Seleta a cor da fonte do botão*/
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;          /*Configura o botão de modo geral*/
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 200px;
+}
+
+.submit-botao:hover{
+    background-color: #00274c;        /*Aplica efeito ao submit quando o cursor estiver sobre ele*/
+    color: #fff;
+    transform: translateY(-2px);
+} 
+
+
+/*----------------------- Página de contato --------------------------------*/
+
+.conteudo1{
+    flex-grow: 1;                       /*Garante que o conteudo do main seja usado ao máximo isolando o cabeçalho e rodapé*/
+    padding: 10px 10px;
+    text-align: center; 
+    display: flex;
+    max-width: 900px;
+    margin: 30px auto;
+    gap: 40px;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.conteudo1__contatoImagem{
+    flex: 1;
+    min-width: 0;
+
+}
+
+.conteudo1__contatoImagem img{
+    width: 100%;
+    height: auto;
+}
+
+.conteudo1__formularioContainer{
+
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario h3{
+    color: black;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.inputGrupo{
+    position: relative;
+}
+
+.inputGrupo input,
+.inputGrupo select,
+.inputGrupo textarea {
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #f9f9f9;
+    transition: all 0.3 ease;
+}
+
