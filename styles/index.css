@@ -4,7 +4,24 @@
     text-align: center;                 /*Centraliza verticalmente os itens de imagem e foto do container*/
 
 }
-.conteudo__imagem img{
-    max-width: 70%;                     /*Largura máxima admitida para a figura principal*/
-    height: auto;                       /*Ajuste da escala automático garantindo fidelidade a imagem*/
+.conteudo__imagem {
+    max-width: 100%;                     /*Largura máxima admitida para a figura principal*/
+    max-width: 700px;                       /*Ajuste da escala automático garantindo fidelidade a imagem*/
+}
+
+.conteudo p{
+
+    margin:20px auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+
+@media(max-width:768px){
+    .conteudo p{
+
+        font-size: 14px;
+    }
+
+
 }

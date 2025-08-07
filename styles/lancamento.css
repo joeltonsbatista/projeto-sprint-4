@@ -35,7 +35,8 @@
 .conteudo__tabelaCarros{
     display:flex;                       /*Aciona o container para organização dos itens da tabela*/
     justify-content: center;            /*Centraliza os itens dispostos na tabela*/
-    gap:30px;                           /*Define o espaçamento entre os itens*/ 
+    gap:20px;                           /*Define o espaçamento entre os itens*/ 
+    padding: 20px;
 
 
 }
@@ -128,4 +129,6 @@
     color: #fff;
     transform: translateY(-2px);
 } 
+
+
 

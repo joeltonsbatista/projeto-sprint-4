@@ -63,3 +63,66 @@
     transition: all 0.3 ease;
 }
 
+.inputGrupo input:focus,
+.inputGrupo select:focus,
+.inputGrupo textarea:focus {
+    border-color:#00274C;
+    outline:none;
+    background-color:#fff;
+
+
+}
+
+.inputGrupo select{
+    appearance:none;
+    color:#555;
+
+}
+
+.inputGrupo textarea{
+    resize:vertical;
+    max-height:30 px;
+
+}
+.submitbotao2{
+    background-color: #1351dB ;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor:pointer;
+    transition:all 0.3s ease;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.submitbotao2:hover{
+    background-color: #00274C;
+    color:white;
+    transform: translateY(-2px);
+
+        
+}
+
+
+@media(max-width:768px){
+
+.conteudo1{
+    flex-direction: column;
+    gap:20px;
+
+}
+
+.conteudo1__formularioContainer{
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+
+}
+
+}

@@ -81,3 +81,52 @@
     font-size: 14px;                    /*Tamanho do texto do rodapé*/
     text-align: center;                 /*Centralização do texto*/
 }
+
+
+
+
+@media(max-width:768px){
+
+    .cabecalho{
+        flex-direction: column;
+        padding:10px 20px;
+
+    }
+
+    .cabecalho__navegacaoLinks{
+
+        gap:15px;
+        margin-top:15px;
+
+    }
+
+
+    .rodape{
+        flex-direction: row;
+        gap:15px;
+        padding:20px;
+        text-align: center;
+        
+    }
+
+    .rodape__redesSociais p{
+        display:none;
+
+    }
+    .rodape__redesSociais img,
+    .rodape__redesSociais__icones img{
+        height: 25px;
+
+    }
+
+    .rodape__copyright p{
+        font-size: 8px;
+        line-height: 1.4;
+        max-width: 88%;
+        margin: 0 auto;
+
+
+    }
+
+
+}
