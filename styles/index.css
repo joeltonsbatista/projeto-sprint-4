@@ -1,0 +1,4 @@
+.conteudo__imagem{
+    max-width: 70%;                     /*Largura máxima admitida para a figura principal*/
+    height: auto;                       /*Ajuste da escala automático garantindo fidelidade a imagem*/
+}

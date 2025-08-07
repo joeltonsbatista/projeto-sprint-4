@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;    
+
+}
+
+.cabecalho{
+    display: flex;                      /*Liga o container*/
+    justify-content:space-between;      /*Alinha os itens lado a lado*/    
+    align-items: center;                /*Centraliza os itens do conatainer*/
+    padding: 10px 40px;                 /*Acrescenta espaçamento nos itens do cabeçalho*/
+    border-bottom: 1px solid #ddd;    /*Cria uma borda prevista pelo design do site*/  
+}
+
+.cabecalho__logo{
+    height: 50px;                       /*Define a altura máxima da figura do cabeçalho*/ 
+}
+
+.cabecalho__navegacaoLinks{
+    list-style: none;                   /*Apaga o simbolo do nome dos links*/
+    margin: 0;                          
+    padding: 0;                         
+    display: flex;                      /*Aciona o container para os itens do menu*/
+    gap: 30px;                          /*Dá um espaçamento de 30 px entre os itens do menu*/
+}
+
+.cabecalho__navegacaoLinks__links{
+    text-decoration: none;              /*Retira o sublinhado do texto apresentado como link*/
+    color: #1351d8;                   /*Insere cor aos ícones*/
+    font-weight: bold;                  /*Coloca texto dos links em negrito*/
+    font-size: 18px;                    /*Define o tamanho da fonte*/
+    transition: color 0.3s ease;        /*Efeito de transição de cor sobre os ícones*/
+}
+
+.cabecalho__navegacaoLinks__links:hover{
+    
+    color: #003478;                   /*Efeito de transição de cor quando o mouse estiver sobre o ícone*/  
+
+}
+
+
+.corpo{
+    font-family: Arial, sans-serif;     /*Seleciona a fonte utilizada no body*/
+    margin: 0;
+    display: flex;                      /*Aciona o container para manipular a foto e o texto*/
+    flex-direction: column;             /*Organiza a foto principal e o texto em colunas*/
+    min-height: 100vh;                  /*Garante que o body ocupe 100% de altura da tela*/
+}
+
+
+.rodape{
+    display: flex;                      /*Aciona o container*/
+    justify-content: space-between;     /*Alinha os itens lado a lado*/
+    align-items: center;                /*Centraliza os itens do conatainer*/
+    background-color: #1b3571;        /*Insere a cor de fundo ao rodapé*/
+    color: #fff;                      /*Insere a cor da fonte*/
+    padding: 10px 40px;                 /* Acrescenta o espaçamento nos itens do rodapé*/
+
+}
+
+.rodape__redesSociais{
+    display: flex;                      /*Aciona o container*/
+    gap: 15px;                          /*Espaça os ites das redes sociais*/
+    align-items: center;                /*Centraliza os ícones das redes sociais*/
+
+}
+
+.rodape__redesSociais__icones{
+    height: 30px;                       /*Definindo altura dos ícones*/
+    transition: transform 0.3s ease;    /*Adicionando efeito de transição*/
+
+}
+
+.rodape__redesSociais__icones:hover{
+    transform: scale(1.1);              /*Amplia o ícone quando o mouse é posicionado sobre ele*/
+}
+
+
+.rodape__copyright{
+    margin: 0;
+    font-size: 14px;                    /*Tamanho do texto do rodapé*/
+    text-align: center;                 /*Centralização do texto*/
+}
