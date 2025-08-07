@@ -1,3 +1,10 @@
+.conteudo{
+    flex-grow: 1;                       /*Garante que o conteudo do main seja usado ao máximo isolando o cabeçalho e rodapé*/
+    padding: 10px 10px;
+    text-align: center;                 /*Centraliza verticalmente os itens de imagem e foto do container*/
+
+}
+
 .conteudo__videoPromocional{
     flex:1;                             /*Reserva um espaço específico para o video*/
     min-width: 0;                       /*Evita o verflow do video dentro do container*/

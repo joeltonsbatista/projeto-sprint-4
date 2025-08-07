@@ -1,4 +1,10 @@
-.conteudo__imagem{
+.conteudo{
+    flex-grow: 1;                       /*Garante que o conteudo do main seja usado ao máximo isolando o cabeçalho e rodapé*/
+    padding: 10px 10px;
+    text-align: center;                 /*Centraliza verticalmente os itens de imagem e foto do container*/
+
+}
+.conteudo__imagem img{
     max-width: 70%;                     /*Largura máxima admitida para a figura principal*/
     height: auto;                       /*Ajuste da escala automático garantindo fidelidade a imagem*/
 }
